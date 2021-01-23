@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>dialogue</name>
+  <hideFlags>None</hideFlags>
+  <entries>
+    <DialogueEntry>
+      <id>Startup</id>
+      <maxLineId>28</maxLineId>
+      <speakers>
+        <string>Player</string>
+        <string>Old man</string>
+      </speakers>
+    </DialogueEntry>
+    <DialogueEntry>
+      <id>deadcity</id>
+      <maxLineId>28</maxLineId>
+      <speakers>
+        <string>Player</string>
+        <string>Old man</string>
+      </speakers>
+    </DialogueEntry>
+    <DialogueEntry>
+      <id>dead</id>
+      <maxLineId>8</maxLineId>
+      <speakers>
+        <string>Player</string>
+        <string>Old man</string>
+      </speakers>
+    </DialogueEntry>
+    <DialogueEntry>
+      <id>dead2</id>
+      <maxLineId>5</maxLineId>
+      <speakers>
+        <string>Player</string>
+        <string>Old man</string>
+      </speakers>
+    </DialogueEntry>
+    <DialogueEntry>
+      <id>dwarf_1</id>
+      <maxLineId>26</maxLineId>
+      <speakers>
+        <string>Bradley McBeard</string>
+        <string>Player</string>
+      </speakers>
+    </DialogueEntry>
+    <DialogueEntry>
+      <id>dwarf_morerats</id>
+      <maxLineId>4</maxLineId>
+      <speakers>
+        <string>Bradley McBeard</string>
+        <string>Player</string>
+      </speakers>
+    </DialogueEntry>
+    <DialogueEntry>
+      <id>dwarf_2</id>
+      <maxLineId>8</maxLineId>
+      <speakers>
+        <string>Player</string>
+        <string>Bradley McBeard</string>
+      </speakers>
+    </DialogueEntry>
+    <DialogueEntry>
+      <id>dwarf_3</id>
+      <maxLineId>4</maxLineId>
+      <speakers>
+        <string>Bradley McBeard</string>
+        <string>Player</string>
+      </speakers>
+    </DialogueEntry>
+    <DialogueEntry>
+      <id>dwarf2_1</id>
+      <maxLineId>9</maxLineId>
+      <speakers>
+        <string>Brighty McBeard</string>
+        <string>Player</string>
+      </speakers>
+    </DialogueEntry>
+  </entries>
+  <lines>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>1</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>1</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>Hello there
+</dialogue>
+      <output>
+        <int>3</int>
+        <int>4</int>
+      </output>
+      <position>
+        <x>188</x>
+        <y>5</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>3</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>Sorry, I dont have time.</dialogue>
+      <output>
+        <int>5</int>
+      </output>
+      <position>
+        <x>334</x>
+        <y>-37</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>4</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>Hello there, old man</dialogue>
+      <output>
+        <int>6</int>
+      </output>
+      <position>
+        <x>339</x>
+        <y>64</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>5</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>Well well, young man. I have some important things to tell you tough, sure you want to leave?
+</dialogue>
+      <output>
+        <int>24</int>
+        <int>25</int>
+      </output>
+      <position>
+        <x>463</x>
+        <y>-86</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>6</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>Oh, i remeber when i was a young man just like you!</dialogue>
+      <output>
+        <int>9</int>
+      </output>
+      <position>
+        <x>483</x>
+        <y>66</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>7</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>I used to be an adventure... but then i took a arrow to the, eh, arm..
+</dialogue>
+      <output>
+        <int>11</int>
+        <int>12</int>
+      </output>
+      <position>
+        <x>783</x>
+        <y>62</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>9</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>What do you mean?</dialogue>
+      <output>
+        <int>7</int>
+      </output>
+      <position>
+        <x>637</x>
+        <y>66</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>11</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>You used to be an adventurer?!</dialogue>
+      <output>
+        <int>14</int>
+      </output>
+      <position>
+        <x>964</x>
+        <y>-2</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>12</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>I think the right sentence is an arrow to the knee?</dialogue>
+      <output>
+        <int>13</int>
+      </output>
+      <position>
+        <x>942</x>
+        <y>175</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>13</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>no. its not!</dialogue>
+      <output>
+        <int>19</int>
+      </output>
+      <position>
+        <x>1093</x>
+        <y>182</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>14</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>Yes indeed. Here, let me give you a quest</dialogue>
+      <output>
+        <int>27</int>
+      </output>
+      <position>
+        <x>1122</x>
+        <y>-22</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>19</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>anyway, you used to be an adventurer?</dialogue>
+      <output>
+        <int>14</int>
+      </output>
+      <position>
+        <x>1248</x>
+        <y>182</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>4</int>
+        <int>4</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>4</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>We meet again, Young man
+</dialogue>
+      <output>
+        <int>5</int>
+        <int>6</int>
+        <int>7</int>
+      </output>
+      <position>
+        <x>146</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>5</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>What is this place?</dialogue>
+      <output>
+        <int>17</int>
+      </output>
+      <position>
+        <x>285</x>
+        <y>-36</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>6</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>Wait... Did i die?!</dialogue>
+      <output>
+        <int>9</int>
+      </output>
+      <position>
+        <x>286</x>
+        <y>56</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>7</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>How do I leave this place?</dialogue>
+      <output>
+        <int>8</int>
+      </output>
+      <position>
+        <x>283</x>
+        <y>181</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>8</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>you simply open the door next to me, and walk though it.</dialogue>
+      <output>
+        <int>14</int>
+      </output>
+      <position>
+        <x>446</x>
+        <y>180</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>9</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>Yes, well, no</dialogue>
+      <output>
+        <int>10</int>
+      </output>
+      <position>
+        <x>468</x>
+        <y>60</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>10</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>What does that mean?</dialogue>
+      <output>
+        <int>11</int>
+      </output>
+      <position>
+        <x>618</x>
+        <y>60</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>11</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>it means you died, but its not your time yet.</dialogue>
+      <output>
+        <int>12</int>
+      </output>
+      <position>
+        <x>768</x>
+        <y>60</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>12</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>So, I'm going back to earth again?</dialogue>
+      <output>
+        <int>13</int>
+      </output>
+      <position>
+        <x>918</x>
+        <y>60</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>13</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>Yes, but you'll have to kill one for me then, a life for a life.</dialogue>
+      <output>
+        <int>19</int>
+      </output>
+      <position>
+        <x>1068</x>
+        <y>60</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>14</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>But the door is locked</dialogue>
+      <output>
+        <int>15</int>
+      </output>
+      <position>
+        <x>599</x>
+        <y>181</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>15</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>Thats because you're dead, my friend.
+</dialogue>
+      <output>
+        <int>6</int>
+      </output>
+      <position>
+        <x>753</x>
+        <y>183</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>17</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>heaven, hell, call it whatever you want to.</dialogue>
+      <output>
+        <int>6</int>
+      </output>
+      <position>
+        <x>435</x>
+        <y>-36</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>19</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>alright, I guess</dialogue>
+      <output>
+        <int>20</int>
+      </output>
+      <position>
+        <x>1227</x>
+        <y>56</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>24</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>Yes</dialogue>
+      <output>
+        <int>26</int>
+      </output>
+      <position>
+        <x>611</x>
+        <y>-109</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>25</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>No</dialogue>
+      <output>
+        <int>6</int>
+      </output>
+      <position>
+        <x>616</x>
+        <y>-21</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>26</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>Have a present day them.</dialogue>
+      <output />
+      <position>
+        <x>762</x>
+        <y>-116</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>27</id>
+      <dialogueEntry>Startup</dialogueEntry>
+      <dialogue>Enter the cave on the other side, but remeber, you can't stay in there for to long!
+</dialogue>
+      <output />
+      <position>
+        <x>1269</x>
+        <y>-31</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>20</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>but, isn't it to easy if I just respawn?</dialogue>
+      <output>
+        <int>21</int>
+      </output>
+      <position>
+        <x>1377</x>
+        <y>56</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>21</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>Each time you die, you loose a bit of your soul... When you die enough times, you can't enter this place again
+</dialogue>
+      <output>
+        <int>22</int>
+        <int>23</int>
+      </output>
+      <position>
+        <x>1521</x>
+        <y>49</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>22</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>I understand, I think</dialogue>
+      <output>
+        <int>25</int>
+      </output>
+      <position>
+        <x>1665</x>
+        <y>9</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>23</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>Where will I do then?</dialogue>
+      <output>
+        <int>24</int>
+      </output>
+      <position>
+        <x>1669</x>
+        <y>87</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>24</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>Some other place, where you either will fres or burn.
+</dialogue>
+      <output>
+        <int>25</int>
+      </output>
+      <position>
+        <x>1819</x>
+        <y>87</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>25</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue>let me just leave, please</dialogue>
+      <output>
+        <int>27</int>
+      </output>
+      <position>
+        <x>1973</x>
+        <y>42</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>27</id>
+      <dialogueEntry>deadcity</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>2123</x>
+        <y>42</y>
+      </position>
+      <userData>LoadCity</userData>
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>dead</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>1</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>1</id>
+      <dialogueEntry>dead</dialogueEntry>
+      <dialogue>You died, my son.</dialogue>
+      <output>
+        <int>2</int>
+      </output>
+      <position>
+        <x>160</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>2</id>
+      <dialogueEntry>dead</dialogueEntry>
+      <dialogue>Wait? I'm your son?</dialogue>
+      <output>
+        <int>3</int>
+      </output>
+      <position>
+        <x>310</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>3</id>
+      <dialogueEntry>dead</dialogueEntry>
+      <dialogue>yes, I'm your father, luk... Player.</dialogue>
+      <output>
+        <int>4</int>
+      </output>
+      <position>
+        <x>460</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>4</id>
+      <dialogueEntry>dead</dialogueEntry>
+      <dialogue>Well this is strange.</dialogue>
+      <output>
+        <int>5</int>
+      </output>
+      <position>
+        <x>607</x>
+        <y>-19</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>5</id>
+      <dialogueEntry>dead</dialogueEntry>
+      <dialogue>yes... Well, do you wanna get respawn?</dialogue>
+      <output>
+        <int>6</int>
+      </output>
+      <position>
+        <x>757</x>
+        <y>-19</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>6</id>
+      <dialogueEntry>dead</dialogueEntry>
+      <dialogue>Yeah, sure.</dialogue>
+      <output>
+        <int>7</int>
+      </output>
+      <position>
+        <x>891</x>
+        <y>-66</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>7</id>
+      <dialogueEntry>dead</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>1027</x>
+        <y>-70</y>
+      </position>
+      <userData>LoadLevel</userData>
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>dead2</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>1</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>1</id>
+      <dialogueEntry>dead2</dialogueEntry>
+      <dialogue>you died again, son.</dialogue>
+      <output>
+        <int>2</int>
+      </output>
+      <position>
+        <x>160</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>2</id>
+      <dialogueEntry>dead2</dialogueEntry>
+      <dialogue>just let me respawn, please</dialogue>
+      <output>
+        <int>3</int>
+      </output>
+      <position>
+        <x>310</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>3</id>
+      <dialogueEntry>dead2</dialogueEntry>
+      <dialogue>As you wish.</dialogue>
+      <output>
+        <int>4</int>
+      </output>
+      <position>
+        <x>460</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>4</id>
+      <dialogueEntry>dead2</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>610</x>
+        <y>10</y>
+      </position>
+      <userData>LoadLevel</userData>
+      <speaker>Old man</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>1</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>1</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Oy! whos there!</dialogue>
+      <output>
+        <int>2</int>
+        <int>3</int>
+      </output>
+      <position>
+        <x>160</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>2</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>I need to go though</dialogue>
+      <output>
+        <int>4</int>
+      </output>
+      <position>
+        <x>311</x>
+        <y>-39</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>3</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Are you a dwarf?</dialogue>
+      <output>
+        <int>22</int>
+      </output>
+      <position>
+        <x>297</x>
+        <y>80</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>4</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Oh, so that is, huh?</dialogue>
+      <output>
+        <int>5</int>
+      </output>
+      <position>
+        <x>462</x>
+        <y>-40</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>5</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Yes, I need to get to Ansaldo</dialogue>
+      <output>
+        <int>6</int>
+      </output>
+      <position>
+        <x>611</x>
+        <y>-39</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>6</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>And what business might you have there?</dialogue>
+      <output>
+        <int>7</int>
+        <int>8</int>
+        <int>9</int>
+      </output>
+      <position>
+        <x>761</x>
+        <y>-39</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>7</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>That is none of you business.</dialogue>
+      <output>
+        <int>20</int>
+      </output>
+      <position>
+        <x>908</x>
+        <y>-65</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>8</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>I need to see a, ehm, dying familie member</dialogue>
+      <output>
+        <int>19</int>
+      </output>
+      <position>
+        <x>913</x>
+        <y>15</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>9</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>I need to kill someone.</dialogue>
+      <output>
+        <int>10</int>
+      </output>
+      <position>
+        <x>915</x>
+        <y>92</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>10</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Arh, you're an assassin?</dialogue>
+      <output>
+        <int>11</int>
+        <int>13</int>
+      </output>
+      <position>
+        <x>1064</x>
+        <y>93</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>11</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Something like that.</dialogue>
+      <output>
+        <int>15</int>
+      </output>
+      <position>
+        <x>1203</x>
+        <y>46</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>13</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>No, I wouldn't call me that.</dialogue>
+      <output>
+        <int>14</int>
+      </output>
+      <position>
+        <x>1207</x>
+        <y>119</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>14</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>well then! Why would you kill somebody?</dialogue>
+      <output>
+        <int>16</int>
+        <int>24</int>
+      </output>
+      <position>
+        <x>1353</x>
+        <y>118</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>15</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Oh well, at least you're being honest!</dialogue>
+      <output>
+        <int>18</int>
+      </output>
+      <position>
+        <x>1352</x>
+        <y>41</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>16</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>I owe a life to god.. eh, my father</dialogue>
+      <output>
+        <int>17</int>
+      </output>
+      <position>
+        <x>1495</x>
+        <y>76</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>17</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Well, young people these days!</dialogue>
+      <output>
+        <int>18</int>
+      </output>
+      <position>
+        <x>1653</x>
+        <y>117</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>18</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>I'll let you in, if you do one thing for me, kill those rats over there! I don't want them in here</dialogue>
+      <output />
+      <position>
+        <x>1804</x>
+        <y>118</y>
+      </position>
+      <userData>spawnRats</userData>
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>19</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Thats the worst lie I've ever heard</dialogue>
+      <output>
+        <int>21</int>
+      </output>
+      <position>
+        <x>1063</x>
+        <y>2</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>20</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Then you sadly can't enter.</dialogue>
+      <output>
+        <int>17</int>
+      </output>
+      <position>
+        <x>1058</x>
+        <y>-76</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>21</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>I don't want liars in here, please go away.</dialogue>
+      <output>
+        <int>17</int>
+      </output>
+      <position>
+        <x>1203</x>
+        <y>-27</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>22</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>I certainly are! my young man.</dialogue>
+      <output>
+        <int>23</int>
+      </output>
+      <position>
+        <x>452</x>
+        <y>87</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>23</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Is there anything else?</dialogue>
+      <output>
+        <int>2</int>
+      </output>
+      <position>
+        <x>632</x>
+        <y>85</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>dwarf_morerats</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>1</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>1</id>
+      <dialogueEntry>dwarf_morerats</dialogueEntry>
+      <dialogue>You didn't kill all the creatures yet!</dialogue>
+      <output>
+        <int>3</int>
+      </output>
+      <position>
+        <x>160</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>3</id>
+      <dialogueEntry>dwarf_morerats</dialogueEntry>
+      <dialogue>Sorry, I'll go ahead and do it.</dialogue>
+      <output />
+      <position>
+        <x>310</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>24</id>
+      <dialogueEntry>dwarf_1</dialogueEntry>
+      <dialogue>Sorry, I am a assassin.</dialogue>
+      <output>
+        <int>15</int>
+      </output>
+      <position>
+        <x>1490</x>
+        <y>157</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>dwarf_2</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>1</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>1</id>
+      <dialogueEntry>dwarf_2</dialogueEntry>
+      <dialogue>I've Killed the rats</dialogue>
+      <output>
+        <int>2</int>
+      </output>
+      <position>
+        <x>160</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>2</id>
+      <dialogueEntry>dwarf_2</dialogueEntry>
+      <dialogue>I see! Just let me find the key</dialogue>
+      <output>
+        <int>3</int>
+      </output>
+      <position>
+        <x>310</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>3</id>
+      <dialogueEntry>dwarf_2</dialogueEntry>
+      <dialogue>hmmtihmm</dialogue>
+      <output>
+        <int>4</int>
+      </output>
+      <position>
+        <x>460</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>4</id>
+      <dialogueEntry>dwarf_2</dialogueEntry>
+      <dialogue>arh, there it is!</dialogue>
+      <output>
+        <int>5</int>
+      </output>
+      <position>
+        <x>610</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>5</id>
+      <dialogueEntry>dwarf_2</dialogueEntry>
+      <dialogue>Do you hear the noice to?</dialogue>
+      <output>
+        <int>6</int>
+      </output>
+      <position>
+        <x>760</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>6</id>
+      <dialogueEntry>dwarf_2</dialogueEntry>
+      <dialogue>I think the skeletons have found the way to my dear cave! defend it, and I'll help you!
+</dialogue>
+      <output />
+      <position>
+        <x>909</x>
+        <y>8</y>
+      </position>
+      <userData>moreEnemies</userData>
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>dwarf_3</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>1</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>1</id>
+      <dialogueEntry>dwarf_3</dialogueEntry>
+      <dialogue>huh, done. Please open the door</dialogue>
+      <output>
+        <int>2</int>
+      </output>
+      <position>
+        <x>160</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>2</id>
+      <dialogueEntry>dwarf_3</dialogueEntry>
+      <dialogue>Will do!</dialogue>
+      <output>
+        <int>3</int>
+      </output>
+      <position>
+        <x>310</x>
+        <y>10</y>
+      </position>
+      <userData>SetDoorTrigger</userData>
+      <speaker>Bradley McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>3</id>
+      <dialogueEntry>dwarf_3</dialogueEntry>
+      <dialogue>You have to hurry though! I don't know how long the door can keep the presure</dialogue>
+      <output />
+      <position>
+        <x>460</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>dwarf2_1</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>1</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>1</id>
+      <dialogueEntry>dwarf2_1</dialogueEntry>
+      <dialogue>You can't be down here man, how'd you find this place?</dialogue>
+      <output>
+        <int>2</int>
+        <int>3</int>
+        <int>5</int>
+        <int>6</int>
+      </output>
+      <position>
+        <x>161</x>
+        <y>9</y>
+      </position>
+      <userData />
+      <speaker>Brighty McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>2</id>
+      <dialogueEntry>dwarf2_1</dialogueEntry>
+      <dialogue>I kept jumped like an maniac
+</dialogue>
+      <output />
+      <position>
+        <x>308</x>
+        <y>-24</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>3</id>
+      <dialogueEntry>dwarf2_1</dialogueEntry>
+      <dialogue>I don't remember</dialogue>
+      <output />
+      <position>
+        <x>311</x>
+        <y>46</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>5</id>
+      <dialogueEntry>dwarf2_1</dialogueEntry>
+      <dialogue>I like hot things, If you know what i mean</dialogue>
+      <output>
+        <int>8</int>
+      </output>
+      <position>
+        <x>317</x>
+        <y>123</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>6</id>
+      <dialogueEntry>dwarf2_1</dialogueEntry>
+      <dialogue>I like turtles</dialogue>
+      <output>
+        <int>7</int>
+      </output>
+      <position>
+        <x>322</x>
+        <y>202</y>
+      </position>
+      <userData />
+      <speaker>Player</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>7</id>
+      <dialogueEntry>dwarf2_1</dialogueEntry>
+      <dialogue>Well, don't we all?</dialogue>
+      <output />
+      <position>
+        <x>472</x>
+        <y>202</y>
+      </position>
+      <userData />
+      <speaker>Brighty McBeard</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>8</id>
+      <dialogueEntry>dwarf2_1</dialogueEntry>
+      <dialogue>You're one nasty mothafucka dawg</dialogue>
+      <output />
+      <position>
+        <x>470</x>
+        <y>124</y>
+      </position>
+      <userData />
+      <speaker>Brighty McBeard</speaker>
+    </DialogueLine>
+  </lines>
+</DialogueFile>

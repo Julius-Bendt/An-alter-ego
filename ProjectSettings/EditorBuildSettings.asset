@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/ansaldo.unity
+    guid: 4f0432c36f84a464d89beab7e40d2891
+  - enabled: 1
+    path: Assets/Scene/ansaldoInside.unity
+    guid: a74dd0b8cc16d7643b796d65f8211b1c
+  - enabled: 1
+    path: Assets/Scene/bed.unity
+    guid: 791dde80f5cdf9047a9c45185d3ee288
+  - enabled: 1
+    path: Assets/Scene/city.unity
+    guid: f176ab49a5c8de94284599abed557e5f
+  - enabled: 1
+    path: Assets/Scene/credits.unity
+    guid: 862c03fbf8cffa641b8ae28ce8b4bd70
+  - enabled: 1
+    path: Assets/Scene/deadcity.unity
+    guid: f1160b0ee0e1e974190504fb2c46ad29
+  - enabled: 1
+    path: Assets/Scene/dungeon1.unity
+    guid: 19b8e8c858533c94cb7e6ca779b53536
+  - enabled: 1
+    path: Assets/Scene/dungeon1_2.unity
+    guid: c99acfcd15bef234aa02f0fc3a997d01
+  - enabled: 1
+    path: Assets/Scene/dungeon1_dark.unity
+    guid: e20e7845b4916f14db67c4ab1aa9e545
+  - enabled: 1
+    path: Assets/Scene/dwarfcity.unity
+    guid: 9bfd3de889c7b044fb65327addfa6bdc
+  - enabled: 1
+    path: Assets/Scene/Gameover.unity
+    guid: e99477e14f6377e4e827c0acd71ce99c
+  - enabled: 1
+    path: Assets/Scene/house.unity
+    guid: 0d53372ed80583c40af0bf436f4ec587
+  - enabled: 1
+    path: Assets/Scene/pirateship.unity
+    guid: bdc932197ec24ff4dada27aa0a7e5f06
+  - enabled: 1
+    path: Assets/Scene/piratetown.unity
+    guid: 5194d8b326855d040868e7f54847cefd
+  - enabled: 1
+    path: Assets/Scene/scene1.unity
+    guid: 9f859ad3423188d4286dc53f5d7d9687

@@ -1,0 +1,1687 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740e3a72aec82c147ba72d7ab4df09ee, type: 3}
+  m_Name: dialogue
+  m_EditorClassIdentifier: 
+  entries:
+  - id: Startup
+    maxLineId: 37
+    speakers:
+    - Player
+    - Old man
+  - id: deadcity
+    maxLineId: 31
+    speakers:
+    - Player
+    - Old man
+  - id: dead
+    maxLineId: 8
+    speakers:
+    - Player
+    - Old man
+  - id: dead2
+    maxLineId: 5
+    speakers:
+    - Player
+    - Old man
+  - id: dwarf_1
+    maxLineId: 26
+    speakers:
+    - Bradley McBeard
+    - Player
+  - id: dwarf_morerats
+    maxLineId: 4
+    speakers:
+    - Bradley McBeard
+    - Player
+  - id: dwarf_2
+    maxLineId: 8
+    speakers:
+    - Player
+    - Bradley McBeard
+  - id: dwarf_3
+    maxLineId: 5
+    speakers:
+    - Bradley McBeard
+    - Player
+  - id: dwarf2_1
+    maxLineId: 25
+    speakers:
+    - Brighty McBeard
+    - Player
+  - id: dwarf_easteregg
+    maxLineId: 13
+    speakers:
+    - Bradley McBeard
+    - Player
+  - id: dwarf_4
+    maxLineId: 7
+    speakers:
+    - Player
+    - Bradley McBeard
+  - id: guardAtGate
+    maxLineId: 21
+    speakers:
+    - guard
+    - Player
+  - id: dead3
+    maxLineId: 4
+    speakers:
+    - Player
+    - Old man
+  - id: pirate_needboat
+    maxLineId: 13
+    speakers:
+    - Retarded pirate
+    - Player
+  - id: pirate_captain_1
+    maxLineId: 17
+    speakers:
+    - pirate captain
+    - Player
+    - Retarded pirate
+  - id: pirate_1_bossfight
+    maxLineId: 9
+    speakers:
+    - Player
+    - Retarded pirate
+  - id: shady_guy
+    maxLineId: 8
+    speakers:
+    - shady guy
+    - Player
+  - id: finish
+    maxLineId: 10
+    speakers:
+    - Player
+    - Old man
+  lines:
+  - id: 0
+    dialogueEntry: Startup
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: Startup
+    dialogue: 'Hello there
+
+'
+    output: 03000000040000001c000000
+    position: {x: 188, y: 5}
+    userData: 
+    speaker: Old man
+  - id: 3
+    dialogueEntry: Startup
+    dialogue: 'Sorry, I dont have time.
+
+'
+    output: 05000000
+    position: {x: 334, y: -37}
+    userData: 
+    speaker: Player
+  - id: 4
+    dialogueEntry: Startup
+    dialogue: Hello there, old man
+    output: 06000000
+    position: {x: 336, y: 62}
+    userData: 
+    speaker: Player
+  - id: 5
+    dialogueEntry: Startup
+    dialogue: 'Well well, young man. I have some important things to tell you tough,
+      sure you want to leave?
+
+'
+    output: 1800000019000000
+    position: {x: 463, y: -86}
+    userData: 
+    speaker: Old man
+  - id: 6
+    dialogueEntry: Startup
+    dialogue: Oh, i remeber when i was a young man just like you!
+    output: 09000000
+    position: {x: 483, y: 66}
+    userData: 
+    speaker: Old man
+  - id: 7
+    dialogueEntry: Startup
+    dialogue: 'I used to be an adventure... but then i took a arrow to the, eh, arm..
+
+'
+    output: 0b0000000c000000
+    position: {x: 783, y: 62}
+    userData: 
+    speaker: Old man
+  - id: 9
+    dialogueEntry: Startup
+    dialogue: What do you mean?
+    output: 07000000
+    position: {x: 637, y: 66}
+    userData: 
+    speaker: Player
+  - id: 11
+    dialogueEntry: Startup
+    dialogue: You used to be an adventurer?!
+    output: 0e000000
+    position: {x: 964, y: -2}
+    userData: 
+    speaker: Player
+  - id: 12
+    dialogueEntry: Startup
+    dialogue: I think the right sentence is an arrow to the knee?
+    output: 0d000000
+    position: {x: 942, y: 175}
+    userData: 
+    speaker: Player
+  - id: 13
+    dialogueEntry: Startup
+    dialogue: no. its not!
+    output: 13000000
+    position: {x: 1093, y: 182}
+    userData: 
+    speaker: Old man
+  - id: 14
+    dialogueEntry: Startup
+    dialogue: Yes indeed. Here, let me give you a quest
+    output: 1b000000
+    position: {x: 1122, y: -22}
+    userData: 
+    speaker: Old man
+  - id: 19
+    dialogueEntry: Startup
+    dialogue: anyway, you used to be an adventurer?
+    output: 0e000000
+    position: {x: 1248, y: 182}
+    userData: 
+    speaker: Player
+  - id: 0
+    dialogueEntry: deadcity
+    dialogue: 
+    output: 0400000004000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 4
+    dialogueEntry: deadcity
+    dialogue: 'We meet again, Young man
+
+'
+    output: 050000000600000007000000
+    position: {x: 146, y: 10}
+    userData: 
+    speaker: Old man
+  - id: 5
+    dialogueEntry: deadcity
+    dialogue: What is this place?
+    output: 11000000
+    position: {x: 285, y: -36}
+    userData: 
+    speaker: Player
+  - id: 6
+    dialogueEntry: deadcity
+    dialogue: Wait... Did i die?!
+    output: 09000000
+    position: {x: 286, y: 56}
+    userData: 
+    speaker: Player
+  - id: 7
+    dialogueEntry: deadcity
+    dialogue: How do I leave this place?
+    output: 08000000
+    position: {x: 283, y: 181}
+    userData: 
+    speaker: Player
+  - id: 8
+    dialogueEntry: deadcity
+    dialogue: you simply open the door next to me, and walk though it.
+    output: 0e000000
+    position: {x: 446, y: 180}
+    userData: 
+    speaker: Old man
+  - id: 9
+    dialogueEntry: deadcity
+    dialogue: Yes, well, no
+    output: 0a000000
+    position: {x: 468, y: 60}
+    userData: 
+    speaker: Old man
+  - id: 10
+    dialogueEntry: deadcity
+    dialogue: What does that mean?
+    output: 0b000000
+    position: {x: 618, y: 60}
+    userData: 
+    speaker: Player
+  - id: 11
+    dialogueEntry: deadcity
+    dialogue: it means you died, but its not your time yet.
+    output: 1c000000
+    position: {x: 768, y: 60}
+    userData: 
+    speaker: Old man
+  - id: 14
+    dialogueEntry: deadcity
+    dialogue: But the door is locked
+    output: 0f000000
+    position: {x: 599, y: 181}
+    userData: 
+    speaker: Player
+  - id: 15
+    dialogueEntry: deadcity
+    dialogue: 'Thats because you''re dead, my friend.
+
+'
+    output: 06000000
+    position: {x: 753, y: 183}
+    userData: 
+    speaker: Old man
+  - id: 17
+    dialogueEntry: deadcity
+    dialogue: heaven, hell, call it whatever you want to.
+    output: 06000000
+    position: {x: 435, y: -36}
+    userData: 
+    speaker: Old man
+  - id: 24
+    dialogueEntry: Startup
+    dialogue: Yes
+    output: 1a000000
+    position: {x: 611, y: -109}
+    userData: 
+    speaker: Player
+  - id: 25
+    dialogueEntry: Startup
+    dialogue: No
+    output: 06000000
+    position: {x: 616, y: -21}
+    userData: 
+    speaker: Player
+  - id: 26
+    dialogueEntry: Startup
+    dialogue: Have a present day them.
+    output: 
+    position: {x: 762, y: -116}
+    userData: 
+    speaker: 
+  - id: 27
+    dialogueEntry: Startup
+    dialogue: 'Enter the cave on the other side, but remeber, you can''t stay in there
+      for to long!
+
+'
+    output: 
+    position: {x: 1269, y: -31}
+    userData: 
+    speaker: Old man
+  - id: 20
+    dialogueEntry: deadcity
+    dialogue: but, isn't it to easy if I just respawn?
+    output: 15000000
+    position: {x: 1377, y: 56}
+    userData: 
+    speaker: Player
+  - id: 21
+    dialogueEntry: deadcity
+    dialogue: 'Each time you die, you loose a bit of your soul... When you die enough
+      times, you can''t enter this place again
+
+'
+    output: 1600000017000000
+    position: {x: 1521, y: 49}
+    userData: 
+    speaker: Old man
+  - id: 22
+    dialogueEntry: deadcity
+    dialogue: I understand, I think
+    output: 19000000
+    position: {x: 1665, y: 9}
+    userData: 
+    speaker: Player
+  - id: 23
+    dialogueEntry: deadcity
+    dialogue: Where will I do then?
+    output: 18000000
+    position: {x: 1669, y: 87}
+    userData: 
+    speaker: Player
+  - id: 24
+    dialogueEntry: deadcity
+    dialogue: 'Some other place, where you either will freeze or burn.
+
+'
+    output: 19000000
+    position: {x: 1819, y: 87}
+    userData: 
+    speaker: Old man
+  - id: 25
+    dialogueEntry: deadcity
+    dialogue: let me just leave, please
+    output: 1b000000
+    position: {x: 1973, y: 42}
+    userData: 
+    speaker: Player
+  - id: 27
+    dialogueEntry: deadcity
+    dialogue: 
+    output: 
+    position: {x: 2123, y: 42}
+    userData: LoadCity
+    speaker: Old man
+  - id: 0
+    dialogueEntry: dead
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: dead
+    dialogue: You died, my son.
+    output: 02000000
+    position: {x: 165, y: 6}
+    userData: 
+    speaker: Old man
+  - id: 2
+    dialogueEntry: dead
+    dialogue: Wait? I'm your son?
+    output: 03000000
+    position: {x: 310, y: 10}
+    userData: 
+    speaker: Player
+  - id: 3
+    dialogueEntry: dead
+    dialogue: yes, I'm your father, luk... Player.
+    output: 04000000
+    position: {x: 460, y: 10}
+    userData: 
+    speaker: Old man
+  - id: 4
+    dialogueEntry: dead
+    dialogue: Well this is strange.
+    output: 05000000
+    position: {x: 607, y: -19}
+    userData: 
+    speaker: Player
+  - id: 5
+    dialogueEntry: dead
+    dialogue: yes... Well, do you wanna get respawn?
+    output: 06000000
+    position: {x: 757, y: -19}
+    userData: 
+    speaker: Old man
+  - id: 6
+    dialogueEntry: dead
+    dialogue: Yeah, sure.
+    output: 07000000
+    position: {x: 891, y: -66}
+    userData: 
+    speaker: Player
+  - id: 7
+    dialogueEntry: dead
+    dialogue: 
+    output: 
+    position: {x: 1027, y: -70}
+    userData: LoadLevel
+    speaker: Player
+  - id: 0
+    dialogueEntry: dead2
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: dead2
+    dialogue: you died again, son.
+    output: 02000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Old man
+  - id: 2
+    dialogueEntry: dead2
+    dialogue: just let me respawn, please
+    output: 03000000
+    position: {x: 310, y: 10}
+    userData: 
+    speaker: Player
+  - id: 3
+    dialogueEntry: dead2
+    dialogue: As you wish.
+    output: 04000000
+    position: {x: 460, y: 10}
+    userData: 
+    speaker: Old man
+  - id: 4
+    dialogueEntry: dead2
+    dialogue: 
+    output: 
+    position: {x: 610, y: 10}
+    userData: LoadLevel
+    speaker: Old man
+  - id: 0
+    dialogueEntry: dwarf_1
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: dwarf_1
+    dialogue: Oy! whos there!
+    output: 0200000003000000
+    position: {x: 160, y: 9}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 2
+    dialogueEntry: dwarf_1
+    dialogue: I need to go though
+    output: 04000000
+    position: {x: 311, y: -39}
+    userData: 
+    speaker: Player
+  - id: 3
+    dialogueEntry: dwarf_1
+    dialogue: Are you a dwarf?
+    output: 16000000
+    position: {x: 297, y: 80}
+    userData: 
+    speaker: Player
+  - id: 4
+    dialogueEntry: dwarf_1
+    dialogue: Oh, so that is, huh?
+    output: 05000000
+    position: {x: 462, y: -40}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 5
+    dialogueEntry: dwarf_1
+    dialogue: Yes, I need to get to Ansaldo
+    output: 06000000
+    position: {x: 611, y: -39}
+    userData: 
+    speaker: Player
+  - id: 6
+    dialogueEntry: dwarf_1
+    dialogue: And what business might you have there?
+    output: 070000000800000009000000
+    position: {x: 761, y: -39}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 7
+    dialogueEntry: dwarf_1
+    dialogue: That is none of you business.
+    output: 14000000
+    position: {x: 908, y: -65}
+    userData: 
+    speaker: Player
+  - id: 8
+    dialogueEntry: dwarf_1
+    dialogue: I need to see a, ehm, dying familie member
+    output: 13000000
+    position: {x: 913, y: 15}
+    userData: 
+    speaker: Player
+  - id: 9
+    dialogueEntry: dwarf_1
+    dialogue: I need to kill someone.
+    output: 0a000000
+    position: {x: 915, y: 92}
+    userData: 
+    speaker: Player
+  - id: 10
+    dialogueEntry: dwarf_1
+    dialogue: Arh, you're an assassin?
+    output: 0b0000000d000000
+    position: {x: 1064, y: 93}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 11
+    dialogueEntry: dwarf_1
+    dialogue: Something like that.
+    output: 0f000000
+    position: {x: 1203, y: 46}
+    userData: 
+    speaker: Player
+  - id: 13
+    dialogueEntry: dwarf_1
+    dialogue: No, I wouldn't call me that.
+    output: 0e000000
+    position: {x: 1207, y: 119}
+    userData: 
+    speaker: Player
+  - id: 14
+    dialogueEntry: dwarf_1
+    dialogue: well then! Why would you kill somebody?
+    output: 1000000018000000
+    position: {x: 1353, y: 118}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 15
+    dialogueEntry: dwarf_1
+    dialogue: Oh well, at least you're being honest!
+    output: 12000000
+    position: {x: 1352, y: 41}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 16
+    dialogueEntry: dwarf_1
+    dialogue: I owe a life to god.. eh, my father
+    output: 11000000
+    position: {x: 1495, y: 76}
+    userData: 
+    speaker: Player
+  - id: 17
+    dialogueEntry: dwarf_1
+    dialogue: Well, young people these days!
+    output: 12000000
+    position: {x: 1653, y: 117}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 18
+    dialogueEntry: dwarf_1
+    dialogue: I'll let you in, if you do one thing for me, kill those rats over there!
+      I don't want them in here
+    output: 
+    position: {x: 1804, y: 118}
+    userData: spawnRats
+    speaker: Bradley McBeard
+  - id: 19
+    dialogueEntry: dwarf_1
+    dialogue: Thats the worst lie I've ever heard
+    output: 15000000
+    position: {x: 1063, y: 2}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 20
+    dialogueEntry: dwarf_1
+    dialogue: Then you sadly can't enter.
+    output: 11000000
+    position: {x: 1058, y: -76}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 21
+    dialogueEntry: dwarf_1
+    dialogue: I don't want liars in here, please go away.
+    output: 11000000
+    position: {x: 1203, y: -27}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 22
+    dialogueEntry: dwarf_1
+    dialogue: I certainly are! my young man.
+    output: 17000000
+    position: {x: 452, y: 87}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 23
+    dialogueEntry: dwarf_1
+    dialogue: Is there anything else?
+    output: 02000000
+    position: {x: 632, y: 85}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 0
+    dialogueEntry: dwarf_morerats
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: dwarf_morerats
+    dialogue: You didn't kill all the creatures yet!
+    output: 03000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 3
+    dialogueEntry: dwarf_morerats
+    dialogue: Sorry, I'll go ahead and do it.
+    output: 
+    position: {x: 310, y: 10}
+    userData: 
+    speaker: Player
+  - id: 24
+    dialogueEntry: dwarf_1
+    dialogue: Sorry, I am a assassin.
+    output: 0f000000
+    position: {x: 1490, y: 157}
+    userData: 
+    speaker: Player
+  - id: 0
+    dialogueEntry: dwarf_2
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: dwarf_2
+    dialogue: I've Killed the rats
+    output: 02000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Player
+  - id: 2
+    dialogueEntry: dwarf_2
+    dialogue: I see! Just let me find the key
+    output: 03000000
+    position: {x: 310, y: 10}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 3
+    dialogueEntry: dwarf_2
+    dialogue: hmmtihmm
+    output: 04000000
+    position: {x: 460, y: 10}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 4
+    dialogueEntry: dwarf_2
+    dialogue: arh, there it is!
+    output: 05000000
+    position: {x: 610, y: 10}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 5
+    dialogueEntry: dwarf_2
+    dialogue: Do you hear the noice to?
+    output: 06000000
+    position: {x: 760, y: 10}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 6
+    dialogueEntry: dwarf_2
+    dialogue: 'I think the skeletons have found the way to my dear cave! defend it,
+      and I''ll help you!
+
+'
+    output: 
+    position: {x: 909, y: 8}
+    userData: moreEnemies
+    speaker: Bradley McBeard
+  - id: 0
+    dialogueEntry: dwarf_3
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: dwarf_3
+    dialogue: huh, done. Please open the door
+    output: 02000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Player
+  - id: 2
+    dialogueEntry: dwarf_3
+    dialogue: Will do!
+    output: 03000000
+    position: {x: 310, y: 10}
+    userData: changeToDwarfText4
+    speaker: Bradley McBeard
+  - id: 3
+    dialogueEntry: dwarf_3
+    dialogue: You have to hurry though! I don't know how long the door can keep the
+      presure
+    output: 04000000
+    position: {x: 460, y: 10}
+    userData: SetDoorTrigger
+    speaker: Bradley McBeard
+  - id: 0
+    dialogueEntry: dwarf2_1
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: dwarf2_1
+    dialogue: Yo' can't down here thug, how tha fuck'd yo' find dis place
+    output: 02000000030000000500000006000000
+    position: {x: 161, y: 9}
+    userData: dwarfDisableCollider
+    speaker: Brighty McBeard
+  - id: 2
+    dialogueEntry: dwarf2_1
+    dialogue: 'I kept jumped like an maniac
+
+'
+    output: 0a000000
+    position: {x: 311, y: -25}
+    userData: 
+    speaker: Player
+  - id: 3
+    dialogueEntry: dwarf2_1
+    dialogue: I don't remember
+    output: 09000000
+    position: {x: 311, y: 46}
+    userData: 
+    speaker: Player
+  - id: 5
+    dialogueEntry: dwarf2_1
+    dialogue: I like hot things, If you know what i mean
+    output: 08000000
+    position: {x: 317, y: 123}
+    userData: 
+    speaker: Player
+  - id: 6
+    dialogueEntry: dwarf2_1
+    dialogue: I like turtles
+    output: 07000000
+    position: {x: 322, y: 202}
+    userData: 
+    speaker: Player
+  - id: 7
+    dialogueEntry: dwarf2_1
+    dialogue: Well shiiit, don't we all dawg
+    output: 0b0000000d000000
+    position: {x: 470, y: 199}
+    userData: 
+    speaker: Brighty McBeard
+  - id: 8
+    dialogueEntry: dwarf2_1
+    dialogue: You're one nasty mothafucka dawg
+    output: 0b0000000d000000
+    position: {x: 470, y: 123}
+    userData: 
+    speaker: Brighty McBeard
+  - id: 9
+    dialogueEntry: dwarf2_1
+    dialogue: 'oh well shiiit
+
+'
+    output: 0b0000000d000000
+    position: {x: 461, y: 46}
+    userData: 
+    speaker: Brighty McBeard
+  - id: 10
+    dialogueEntry: dwarf2_1
+    dialogue: well shiiit, you kinda look like a maniac too
+    output: 0b0000000d000000
+    position: {x: 454, y: -24}
+    userData: 
+    speaker: Brighty McBeard
+  - id: 11
+    dialogueEntry: dwarf2_1
+    dialogue: ay dude, are you black?
+    output: 0e000000
+    position: {x: 650, y: 56}
+    userData: 
+    speaker: Player
+  - id: 13
+    dialogueEntry: dwarf2_1
+    dialogue: who are you anyway?
+    output: 0f000000
+    position: {x: 655, y: 158}
+    userData: 
+    speaker: Player
+  - id: 14
+    dialogueEntry: dwarf2_1
+    dialogue: Do I look black ta yo' biatch?
+    output: 10000000
+    position: {x: 799, y: 58}
+    userData: 
+    speaker: Brighty McBeard
+  - id: 15
+    dialogueEntry: dwarf2_1
+    dialogue: 'Im sir Brighty McBeard tha first man, yo'' don''t knooow me '
+    output: 13000000
+    position: {x: 805, y: 159}
+    userData: 
+    speaker: Brighty McBeard
+  - id: 16
+    dialogueEntry: dwarf2_1
+    dialogue: Well, you sound black
+    output: 11000000
+    position: {x: 949, y: 58}
+    userData: 
+    speaker: Player
+  - id: 17
+    dialogueEntry: dwarf2_1
+    dialogue: naw yo'r just bein racist
+    output: 12000000
+    position: {x: 1088, y: 58}
+    userData: 
+    speaker: Brighty McBeard
+  - id: 18
+    dialogueEntry: dwarf2_1
+    dialogue: Sorry... Dawg... who are you anyway?
+    output: 0f000000
+    position: {x: 1238, y: 58}
+    userData: 
+    speaker: Player
+  - id: 19
+    dialogueEntry: dwarf2_1
+    dialogue: Nice to meat you... I mean meet..
+    output: 14000000
+    position: {x: 963, y: 190}
+    userData: 
+    speaker: Player
+  - id: 20
+    dialogueEntry: dwarf2_1
+    dialogue: pwease leave me, n' find my fuckin' cousin, his mothafuckin' name be
+      Bradley McBeard. dude got a brown beard.
+    output: 1500000016000000
+    position: {x: 1113, y: 190}
+    userData: dwarfDisableCollider
+    speaker: Brighty McBeard
+  - id: 21
+    dialogueEntry: dwarf2_1
+    dialogue: I don't really have time
+    output: 18000000
+    position: {x: 1260, y: 151}
+    userData: 
+    speaker: Player
+  - id: 22
+    dialogueEntry: dwarf2_1
+    dialogue: Where can I find him?
+    output: 17000000
+    position: {x: 1265, y: 228}
+    userData: 
+    speaker: Player
+  - id: 23
+    dialogueEntry: dwarf2_1
+    dialogue: Just walk upstairs, all tha otha dwarfs r' dead, so dude'll be east
+      ta find
+    output: 
+    position: {x: 1414, y: 228}
+    userData: changeDefaultDwarfText
+    speaker: Brighty McBeard
+  - id: 24
+    dialogueEntry: dwarf2_1
+    dialogue: dat shit wasn't a question
+    output: 17000000
+    position: {x: 1410, y: 149}
+    userData: 
+    speaker: Brighty McBeard
+  - id: 0
+    dialogueEntry: dwarf_easteregg
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: dwarf_easteregg
+    dialogue: yeah? get away.
+    output: 02000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 2
+    dialogueEntry: dwarf_easteregg
+    dialogue: Your cousin told me to find you, said you'd be easy to find
+    output: 03000000
+    position: {x: 310, y: 12}
+    userData: 
+    speaker: Player
+  - id: 3
+    dialogueEntry: dwarf_easteregg
+    dialogue: Oy, hi there then, sorry for before. So, what do you want?
+    output: 040000000600000008000000
+    position: {x: 445, y: 7}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 4
+    dialogueEntry: dwarf_easteregg
+    dialogue: I owe a life to god
+    output: 05000000
+    position: {x: 594, y: -54}
+    userData: 
+    speaker: Player
+  - id: 5
+    dialogueEntry: dwarf_easteregg
+    dialogue: How is that posible?
+    output: 0500000009000000
+    position: {x: 744, y: -54}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 6
+    dialogueEntry: dwarf_easteregg
+    dialogue: Some food and rest would be nice.
+    output: 07000000
+    position: {x: 556, y: 110}
+    userData: heal
+    speaker: Player
+  - id: 7
+    dialogueEntry: dwarf_easteregg
+    dialogue: Is there anything else?
+    output: 0400000008000000
+    position: {x: 718, y: 116}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 8
+    dialogueEntry: dwarf_easteregg
+    dialogue: Could you help me get to Ansaldo?
+    output: 0b000000
+    position: {x: 611, y: 27}
+    userData: 
+    speaker: Player
+  - id: 9
+    dialogueEntry: dwarf_easteregg
+    dialogue: It a long story, and I'm pretty tired, can you help me?
+    output: 0a000000
+    position: {x: 894, y: -54}
+    userData: 
+    speaker: Player
+  - id: 10
+    dialogueEntry: dwarf_easteregg
+    dialogue: Well you certainly can't kill me
+    output: 08000000
+    position: {x: 1044, y: -54}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 11
+    dialogueEntry: dwarf_easteregg
+    dialogue: just walk to the left, and you'll be on your way.
+    output: 0c000000
+    position: {x: 758, y: 25}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 12
+    dialogueEntry: dwarf_easteregg
+    dialogue: Thanks
+    output: 
+    position: {x: 908, y: 25}
+    userData: loadAnsaldo
+    speaker: Player
+  - id: 0
+    dialogueEntry: dwarf_4
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: dwarf_4
+    dialogue: So what are you doing in ansaldo anyway? heard that city is lost long
+      time ago
+    output: 02000000
+    position: {x: 160, y: 9}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 2
+    dialogueEntry: dwarf_4
+    dialogue: I owe a life to god, I have to kill one.
+    output: 03000000
+    position: {x: 310, y: 9}
+    userData: 
+    speaker: Player
+  - id: 3
+    dialogueEntry: dwarf_4
+    dialogue: Can you help me?
+    output: 04000000
+    position: {x: 460, y: 9}
+    userData: 
+    speaker: Player
+  - id: 4
+    dialogueEntry: dwarf_4
+    dialogue: You just have to keep going to the right. remember...
+    output: 05000000
+    position: {x: 610, y: 9}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 5
+    dialogueEntry: dwarf_4
+    dialogue: Follow the right path
+    output: 06000000
+    position: {x: 760, y: 9}
+    userData: 
+    speaker: Bradley McBeard
+  - id: 6
+    dialogueEntry: dwarf_4
+    dialogue: 
+    output: 
+    position: {x: 910, y: 9}
+    userData: loadAnsaldo
+    speaker: 
+  - id: 0
+    dialogueEntry: guardAtGate
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: guardAtGate
+    dialogue: Stop right there!
+    output: 0200000003000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: guard
+  - id: 2
+    dialogueEntry: guardAtGate
+    dialogue: I need to enter...
+    output: 10000000
+    position: {x: 310, y: -13}
+    userData: 
+    speaker: Player
+  - id: 3
+    dialogueEntry: guardAtGate
+    dialogue: Any problems, sir?
+    output: 04000000
+    position: {x: 314, y: 64}
+    userData: 
+    speaker: Player
+  - id: 4
+    dialogueEntry: guardAtGate
+    dialogue: the priest said the son of god was to kill a person in Ansaldo, so the
+      king have told me to watch out, and not let any one though.
+    output: 0500000006000000
+    position: {x: 464, y: 65}
+    userData: 
+    speaker: guard
+  - id: 5
+    dialogueEntry: guardAtGate
+    dialogue: I'm the son of god! let me in or there will be consequences! [Persuade]
+    output: 0c000000
+    position: {x: 612, y: 119}
+    userData: 
+    speaker: Player
+  - id: 6
+    dialogueEntry: guardAtGate
+    dialogue: Haven't heard anything of that!
+    output: 07000000
+    position: {x: 607, y: 37}
+    userData: 
+    speaker: Player
+  - id: 7
+    dialogueEntry: guardAtGate
+    dialogue: What's your business in Ansaldo then?
+    output: 080000000a0000000b000000
+    position: {x: 757, y: 38}
+    userData: 
+    speaker: guard
+  - id: 8
+    dialogueEntry: guardAtGate
+    dialogue: I must visit my mother! she's dying. Please help me good sir [Lie]
+    output: 0d000000
+    position: {x: 896, y: 0}
+    userData: 
+    speaker: Player
+  - id: 10
+    dialogueEntry: guardAtGate
+    dialogue: '*sigh* I''m the son of god.. please just let me though'
+    output: 0c000000
+    position: {x: 896, y: -75}
+    userData: 
+    speaker: Player
+  - id: 11
+    dialogueEntry: guardAtGate
+    dialogue: What if i give you these coins? [Bribe]
+    output: 0f000000
+    position: {x: 899, y: 74}
+    userData: 
+    speaker: 
+  - id: 12
+    dialogueEntry: guardAtGate
+    dialogue: I belive in god... but I'll be killed if I help you, I will however
+      show you a way around! Hold tight!
+    output: 12000000
+    position: {x: 1046, y: -81}
+    userData: 
+    speaker: guard
+  - id: 13
+    dialogueEntry: guardAtGate
+    dialogue: I'm sorry... I can't let you though...
+    output: 0e000000
+    position: {x: 1046, y: 0}
+    userData: 
+    speaker: guard
+  - id: 14
+    dialogueEntry: guardAtGate
+    dialogue: 'Wait! '
+    output: 0a000000
+    position: {x: 1196, y: 0}
+    userData: 
+    speaker: Player
+  - id: 15
+    dialogueEntry: guardAtGate
+    dialogue: When you put it that way... I can't open the gate.. however, I can show
+      you a way around. Hold tight!
+    output: 13000000
+    position: {x: 1049, y: 74}
+    userData: 
+    speaker: guard
+  - id: 16
+    dialogueEntry: guardAtGate
+    dialogue: I can't let you enter, sorry. There's some problem with god, I guess.
+    output: 11000000
+    position: {x: 457, y: -47}
+    userData: 
+    speaker: guard
+  - id: 17
+    dialogueEntry: guardAtGate
+    dialogue: What kinda problem?
+    output: 04000000
+    position: {x: 613, y: -50}
+    userData: 
+    speaker: Player
+  - id: 0
+    dialogueEntry: dead3
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: dead3
+    dialogue: I can't keep you in this world much longer! be careful, yong boy
+    output: 02000000
+    position: {x: 160, y: 8}
+    userData: 
+    speaker: Old man
+  - id: 2
+    dialogueEntry: dead3
+    dialogue: Don't care, just let me respawn
+    output: 
+    position: {x: 310, y: 8}
+    userData: LoadLevel
+    speaker: Player
+  - id: 18
+    dialogueEntry: guardAtGate
+    dialogue: be careful, son of god!
+    output: 
+    position: {x: 1196, y: -81}
+    userData: makeGroundFall
+    speaker: guard
+  - id: 19
+    dialogueEntry: guardAtGate
+    dialogue: be careful, son of god!
+    output: 
+    position: {x: 1199, y: 74}
+    userData: makeGroundFall
+    speaker: guard
+  - id: 0
+    dialogueEntry: pirate_needboat
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: pirate_needboat
+    dialogue: Hey, ehm, "mate" I need to get to the other side of the lake, can you
+      help me?
+    output: 02000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Player
+  - id: 2
+    dialogueEntry: pirate_needboat
+    dialogue: Ay, I could do that, but whats in it for me?
+    output: 0300000004000000
+    position: {x: 310, y: 10}
+    userData: 
+    speaker: Retarded pirate
+  - id: 3
+    dialogueEntry: pirate_needboat
+    dialogue: I won't kill you, is that enough?
+    output: 05000000
+    position: {x: 458, y: -37}
+    userData: 
+    speaker: Player
+  - id: 4
+    dialogueEntry: pirate_needboat
+    dialogue: I'm the son of god, you kinda have to help me... or it means bad luck
+    output: 05000000
+    position: {x: 456, y: 39}
+    userData: 
+    speaker: Player
+  - id: 5
+    dialogueEntry: pirate_needboat
+    dialogue: 'Alright, I''ll help ya, but you have to drink some of this rum! it
+      got a special ingrediens, but you''ll feel that later. hehehe
+
+'
+    output: 07000000
+    position: {x: 597, y: 13}
+    userData: 
+    speaker: Retarded pirate
+  - id: 7
+    dialogueEntry: pirate_needboat
+    dialogue: 'eww, this shit taste awfull, what is it? '
+    output: 08000000
+    position: {x: 752, y: 17}
+    userData: 
+    speaker: Player
+  - id: 8
+    dialogueEntry: pirate_needboat
+    dialogue: its rum with LSP
+    output: 09000000
+    position: {x: 909, y: 15}
+    userData: 
+    speaker: Retarded pirate
+  - id: 9
+    dialogueEntry: pirate_needboat
+    dialogue: Wait? LSP? what's that?
+    output: 0a000000
+    position: {x: 1059, y: 15}
+    userData: 
+    speaker: Player
+  - id: 10
+    dialogueEntry: pirate_needboat
+    dialogue: liquid smoke poop! you're gonna have a goood time lad
+    output: 0b000000
+    position: {x: 1209, y: 15}
+    userData: 
+    speaker: Retarded pirate
+  - id: 11
+    dialogueEntry: pirate_needboat
+    dialogue: Wait? what?
+    output: 0c000000
+    position: {x: 1359, y: 15}
+    userData: 
+    speaker: Player
+  - id: 12
+    dialogueEntry: pirate_needboat
+    dialogue: the boat will be here soon enough, just relax, ey
+    output: 
+    position: {x: 1509, y: 15}
+    userData: activateBoat
+    speaker: Retarded pirate
+  - id: 0
+    dialogueEntry: pirate_captain_1
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: pirate_captain_1
+    dialogue: Ahoy! how be ye feelin'?
+    output: 02000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: pirate captain
+  - id: 2
+    dialogueEntry: pirate_captain_1
+    dialogue: Aw, my head hurts... Do you have any water?
+    output: 03000000
+    position: {x: 310, y: 10}
+    userData: heal
+    speaker: Player
+  - id: 3
+    dialogueEntry: pirate_captain_1
+    dialogue: here ye be
+    output: 04000000
+    position: {x: 460, y: 10}
+    userData: 
+    speaker: pirate captain
+  - id: 4
+    dialogueEntry: pirate_captain_1
+    dialogue: Where am I?
+    output: 0e000000
+    position: {x: 340, y: 160}
+    userData: 
+    speaker: Player
+  - id: 5
+    dialogueEntry: pirate_captain_1
+    dialogue: ye have 2 choices, 1 to be killed, or 2, to join th' crew
+    output: 06000000070000000800000009000000
+    position: {x: 715, y: 151}
+    userData: 
+    speaker: pirate captain
+  - id: 6
+    dialogueEntry: pirate_captain_1
+    dialogue: can you repeat 1?
+    output: 0a000000
+    position: {x: 874, y: -45}
+    userData: 
+    speaker: Player
+  - id: 7
+    dialogueEntry: pirate_captain_1
+    dialogue: can you repeat 2?
+    output: 0b000000
+    position: {x: 881, y: 32}
+    userData: 
+    speaker: Player
+  - id: 8
+    dialogueEntry: pirate_captain_1
+    dialogue: I'd rather die than join your crew!
+    output: 0d000000
+    position: {x: 880, y: 107}
+    userData: 
+    speaker: Player
+  - id: 9
+    dialogueEntry: pirate_captain_1
+    dialogue: I'll join the crew! I just need help to get to ansaldo and kill a noble
+      first!
+    output: 0c000000
+    position: {x: 887, y: 186}
+    userData: 
+    speaker: Player
+  - id: 10
+    dialogueEntry: pirate_captain_1
+    dialogue: Choice 1 be to be killed
+    output: 070000000800000009000000
+    position: {x: 1024, y: -45}
+    userData: 
+    speaker: pirate captain
+  - id: 11
+    dialogueEntry: pirate_captain_1
+    dialogue: Choice 2 be to join th' crew
+    output: 0c000000060000000800000009000000
+    position: {x: 1031, y: 32}
+    userData: 
+    speaker: pirate captain
+  - id: 12
+    dialogueEntry: pirate_captain_1
+    dialogue: Cap'n, we don't have grub nor doubloons fer another scruy pirate!
+    output: 0d000000
+    position: {x: 1182, y: 32}
+    userData: 
+    speaker: Retarded pirate
+  - id: 13
+    dialogueEntry: pirate_captain_1
+    dialogue: We have to murder you then! ARRRR
+    output: 
+    position: {x: 1338, y: 35}
+    userData: bossBattle_pirate
+    speaker: pirate captain
+  - id: 0
+    dialogueEntry: pirate_1_bossfight
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: pirate_1_bossfight
+    dialogue: OMG, you just totally killed that captain
+    output: 03000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Retarded pirate
+  - id: 3
+    dialogueEntry: pirate_1_bossfight
+    dialogue: 'His ship, is so much yours now! '
+    output: 04000000
+    position: {x: 363, y: 8}
+    userData: 
+    speaker: Retarded pirate
+  - id: 4
+    dialogueEntry: pirate_1_bossfight
+    dialogue: So I'm in command now?
+    output: 05000000
+    position: {x: 513, y: 8}
+    userData: 
+    speaker: Player
+  - id: 5
+    dialogueEntry: pirate_1_bossfight
+    dialogue: of course, cap'n
+    output: 06000000
+    position: {x: 663, y: 7}
+    userData: 
+    speaker: Retarded pirate
+  - id: 6
+    dialogueEntry: pirate_1_bossfight
+    dialogue: Well, I would like to sail to Ansaldo then!
+    output: 07000000
+    position: {x: 813, y: 8}
+    userData: 
+    speaker: Player
+  - id: 7
+    dialogueEntry: pirate_1_bossfight
+    dialogue: Ehm, yeah... about that. The ship isn't seaworthy... But i have another
+      idea....
+    output: 08000000
+    position: {x: 963, y: 8}
+    userData: 
+    speaker: Retarded pirate
+  - id: 8
+    dialogueEntry: pirate_1_bossfight
+    dialogue: 
+    output: 
+    position: {x: 1113, y: 8}
+    userData: loadPirateship
+    speaker: 
+  - id: 0
+    dialogueEntry: shady_guy
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: shady_guy
+    dialogue: Hello! could you give me a ride to Ansaldo?
+    output: 02000000
+    position: {x: 160, y: 8}
+    userData: 
+    speaker: Player
+  - id: 2
+    dialogueEntry: shady_guy
+    dialogue: 'Sure thing! just hand over me some coins, And we''ll be on our way.
+
+'
+    output: 0300000004000000
+    position: {x: 310, y: 8}
+    userData: 
+    speaker: shady guy
+  - id: 3
+    dialogueEntry: shady_guy
+    dialogue: '*refuse*'
+    output: 05000000
+    position: {x: 453, y: -46}
+    userData: 
+    speaker: Player
+  - id: 4
+    dialogueEntry: shady_guy
+    dialogue: '*give coins*'
+    output: 06000000
+    position: {x: 459, y: 39}
+    userData: 
+    speaker: Player
+  - id: 5
+    dialogueEntry: shady_guy
+    dialogue: Well, no travel for you then!
+    output: 
+    position: {x: 603, y: -46}
+    userData: 
+    speaker: shady guy
+  - id: 6
+    dialogueEntry: shady_guy
+    dialogue: Lets get going!
+    output: 07000000
+    position: {x: 609, y: 39}
+    userData: 
+    speaker: shady guy
+  - id: 7
+    dialogueEntry: shady_guy
+    dialogue: 
+    output: 
+    position: {x: 759, y: 39}
+    userData: loadAnsaldoInside
+    speaker: 
+  - id: 0
+    dialogueEntry: finish
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: finish
+    dialogue: 'You have finished your path, young man.
+
+'
+    output: 02000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Old man
+  - id: 2
+    dialogueEntry: finish
+    dialogue: wait - is this game over?
+    output: 03000000
+    position: {x: 310, y: 10}
+    userData: 
+    speaker: Player
+  - id: 3
+    dialogueEntry: finish
+    dialogue: Call it whatever you want. I hope you enjoyed the journey.
+    output: 06000000
+    position: {x: 458, y: 10}
+    userData: 
+    speaker: Old man
+  - id: 6
+    dialogueEntry: finish
+    dialogue: Don't I need to kill someone?
+    output: 07000000
+    position: {x: 608, y: 10}
+    userData: 
+    speaker: Player
+  - id: 7
+    dialogueEntry: finish
+    dialogue: Meh, I killed everybody already, and I'm in good mood today! So, I'll
+      let you pass this time
+    output: 08000000
+    position: {x: 758, y: 10}
+    userData: 
+    speaker: Old man
+  - id: 8
+    dialogueEntry: finish
+    dialogue: 'Thank you, I guess... father
+
+'
+    output: 09000000
+    position: {x: 908, y: 10}
+    userData: 
+    speaker: Player
+  - id: 9
+    dialogueEntry: finish
+    dialogue: 
+    output: 
+    position: {x: 1058, y: 10}
+    userData: finish
+    speaker: Old man
+  - id: 4
+    dialogueEntry: dwarf_3
+    dialogue: 
+    output: 
+    position: {x: 610, y: 10}
+    userData: loadAnsaldo
+    speaker: 
+  - id: 28
+    dialogueEntry: deadcity
+    dialogue: Well, How did i die?
+    output: 1d000000
+    position: {x: 866, y: 118}
+    userData: 
+    speaker: Player
+  - id: 29
+    dialogueEntry: deadcity
+    dialogue: 'I told you not to stay in that cave for to long! '
+    output: 1e000000
+    position: {x: 999, y: 124}
+    userData: 
+    speaker: Old man
+  - id: 30
+    dialogueEntry: deadcity
+    dialogue: Also, I want to give you a new mission! To kill a lord - Travel to Ansaldo,
+      the city of lords! there will be plenty of lord you can choose from! Now, I'm
+      sending you back to earth, you can call it respawning, if you like.
+    output: 14000000
+    position: {x: 1149, y: 124}
+    userData: 
+    speaker: Old man
+  - id: 28
+    dialogueEntry: Startup
+    dialogue: Wheres the totorial?!
+    output: 1d000000
+    position: {x: 310, y: -164}
+    userData: 
+    speaker: Player
+  - id: 29
+    dialogueEntry: Startup
+    dialogue: language young man! Now, what can I help you with?
+    output: 1e0000001f0000002000000021000000
+    position: {x: 374, y: -301}
+    userData: 
+    speaker: Old man
+  - id: 30
+    dialogueEntry: Startup
+    dialogue: How do i attack?
+    output: 24000000
+    position: {x: 554, y: -460}
+    userData: 
+    speaker: Player
+  - id: 31
+    dialogueEntry: Startup
+    dialogue: How do i walk?
+    output: 23000000
+    position: {x: 557, y: -378}
+    userData: 
+    speaker: Player
+  - id: 32
+    dialogueEntry: Startup
+    dialogue: other things I should know?
+    output: 22000000
+    position: {x: 557, y: -300}
+    userData: 
+    speaker: Player
+  - id: 33
+    dialogueEntry: Startup
+    dialogue: 'Notthing, bye
+
+'
+    output: 06000000
+    position: {x: 556, y: -219}
+    userData: 
+    speaker: Player
+  - id: 34
+    dialogueEntry: Startup
+    dialogue: the people in, and around Ansaldo are very friendly towards strangers,
+      use this as you avanges when you need to rest.
+    output: 1d000000
+    position: {x: 707, y: -300}
+    userData: 
+    speaker: Old man
+  - id: 35
+    dialogueEntry: Startup
+    dialogue: You use the WASD or arrow keys.
+    output: 1d000000
+    position: {x: 703, y: -391}
+    userData: 
+    speaker: 
+  - id: 36
+    dialogueEntry: Startup
+    dialogue: you can throw you axe with Q and Spacebar, attack with you sword with
+      E and the mouse button.
+    output: 
+    position: {x: 700, y: -477}
+    userData: 
+    speaker: 
+  - id: 14
+    dialogueEntry: pirate_captain_1
+    dialogue: Ye're on me ship
+    output: 0f000000
+    position: {x: 362, y: 300}
+    userData: 
+    speaker: pirate captain
+  - id: 15
+    dialogueEntry: pirate_captain_1
+    dialogue: 'How did I end up here? '
+    output: 10000000
+    position: {x: 585, y: 294}
+    userData: 
+    speaker: Player
+  - id: 16
+    dialogueEntry: pirate_captain_1
+    dialogue: I kidnapped ye
+    output: 05000000
+    position: {x: 572, y: 154}
+    userData: 
+    speaker: pirate captain
